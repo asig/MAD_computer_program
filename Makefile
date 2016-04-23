@@ -1,5 +1,8 @@
 all: alfred128.prg alfred64.prg
 
+clean:
+	rm *.prg
+	
 alfred128.prg:	alfred128.bas
 	petcat -w70 -o alfred128.prg -- alfred128.bas
 
