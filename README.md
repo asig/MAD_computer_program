@@ -8,7 +8,7 @@ like me, and some of them even published their results. Thanks to
 whoever runs meatfighter.com!
 
 However, the folks over at [meatfighter.com](http://meatfighter.com/mad)
-only typed in Apple version! Luckily, the scans of the original
+only typed in the Apple version! Luckily, the scans of the original
 pages were online as well, and pretty easy to read (for me, 
 not for my OCR...).
 
