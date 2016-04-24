@@ -26,7 +26,7 @@
 250 dx=lx-fx:dy=ly-fy
 260 xp=fx:rx=fx:yp=fy:ry=fy:gosub210
 270 if abs(dy) > abs(dx) then 330
-280 if dx=0 then xi=dx:yi=dy:goto300
+280 if dx=0 then return
 290 xi=dx/abs(dx):yi=dy/abs(dx)
 300 xp=xp+xi:ry=ry+yi:yp=int(ry+0.5):gosub210
 310 if xp=lx then return
