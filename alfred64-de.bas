@@ -6,7 +6,7 @@
 135 read x0,y0,x1,y1:if x0=999 then 330
 150 x0=int((x0*si+xc)+.5):x1=int((x1*si+xc)+.5)
 160 y0=199-(y0+yc):y1=199-(y1+yc)
-180 gosub200:x0=x0+1:x1=x1+1:gosub200:goto135
+180 xs=x0:ys=y0:gosub200:x0=xs+1:y0=ys:x1=x1+1:gosub200:goto135
 200 :s1=.:s2=1:a1=1:a2=.
 210 : if x1>=x0 then d1=x1-x0:goto220
 215 :a1=-1:d1=x0-x1
@@ -28,7 +28,7 @@
 310 :hv=2^((7-x0)and 7):ad=sa+yk+xk
 315 :poke ad, (peek(ad)or hv):return
 330 for i=0 to 127:read b:poke 31712+i,b:next
-350 poke 198,0: wait198,1:poke 56576,255
+350 poke 198,0:wait 198,1:poke 56576,255
 360 poke vic+17,27:poke vic+24,21:end
 
 400 data 169,6,141,0,68,238,195,2,208,248,238,196,2
