@@ -36,3 +36,12 @@ in the mood to type it in again.
 So, I grabbed my old C128 manual from www.retrozone.ch and started
 to write a proper port in Basic 7.0. Ah, it felt like in the good
 old times!
+
+Update
+------
+I just had to try out the german version as well. They changed the
+line drawing algorithm (Bresenham, if I'm not mistaken), but didn't
+touch the pixel setting code. D'oh!
+
+Also, the colors are different, and instead of "WHAT, ME WORRY?" it
+says "ALFRED E. HACKER" below the portrait.
