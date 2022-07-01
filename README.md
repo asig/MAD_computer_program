@@ -28,8 +28,7 @@ After that change, it all worked like a charm!
 C128 port
 ---------
 The US version of the program is horribly slow (well, setting single
-pixels in BASIC...). There seems to be a [German version]
-(http://www.moodymike.de/archiv/archiv/mad_computer/mad_205_27.jpg)
+pixels in BASIC...). The [German version](./MAD_computer_program.pdf)
 that is different and contains some assembler code, but I wasn't 
 in the mood to type it in again.
 
